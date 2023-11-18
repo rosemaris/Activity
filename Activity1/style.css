@@ -94,5 +94,5 @@ a.active, a:hover{
 section{
     background: url(images/images2.jpg) no-repeat;
     background-size: cover;
-    height: calc(120vh - 80px);
+    height: calc(150vh - 80px);
 }
