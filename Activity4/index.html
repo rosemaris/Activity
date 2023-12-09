@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/rmg.png" />
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>HTML Tutorials 6-12 | Rose Maris|12/08/2023</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        alert("This is Maris WORK !")
+    </script>
+    <script src="function.js"></script>
+    <style>
+        table,
+        tr,
+        th,
+        td {
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        thead {
+            background-color: yellow;
+        }
+
+        tfoot {
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand mb-0 h1">
+                <img class="d-inline-block align-top"
+                    src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" width="50"
+                    height="50" />
+                HTML Tutorial
+            </a>
+            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a href="#" class="nav-link active">
+                            Rose Maris Gulay
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="https://nerknerk.github.io/Activity/Activity4/" class="nav-link ">
+                            Ken Ryan Simbajon
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="https://tregie199909.github.io/Activity/Activity4/" class="nav-link">
+                            Regie Tinampay
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="https://grasyat.github.io/Activity/Activity4/" class="nav-link">
+                            Grace Tinampay
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="https://prinshiit.github.io/Activity/Activity4/" class="nav-link">
+                            Princess Coma
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+    <h1>Tutorials 6-12</h1>
+    <section>
+
+        <body class="p-3 m-0 border-0 bd-example m-0 border-0">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            HTML Tutorial #6: List
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/x5mYQJTqOWk?si=Cf1wa8V5Fera6T1t"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Unordered List</b></p>
+                                        <ul>
+                                            <li>Gulay</li>
+                                            <ul>
+                                                <li>Nonon</li>
+                                                <ul>
+                                                    <li>Dianara</li>
+                                                </ul>
+                                                <li>Maris</li>
+                                            </ul>
+                                            <li>Coma</li>
+                                            <ul>
+                                                <li>Quennie</li>
+                                                <ul>
+                                                    <li>Clark</li>
+                                                </ul>
+                                                <li>Princess</li>
+                                            </ul>
+                                            <li>Tinampay</li>
+                                            <ul>
+                                                <li>Regie</li>
+                                                <li>Grace</li>
+                                            </ul>
+                                        </ul>
+                                        <br>
+                                        <p><b>Ordered List</b></p>
+                                        <ol>
+                                            <li>Mama</li>
+                                            <li>Papa</li>
+                                            <li>Ate</li>
+                                            <li>Kuya</li>
+                                        </ol>
+                                        <ol>
+                                            <li value="100">Rose</li>
+                                            <li>Dodong</li>
+                                        </ol>
+
+                                    </td>
+                                    <td>
+                                        <p>I was able to learn about types of list which is the ul and ol</p>
+                                        <p><i>li</i> <b>List item element</b> is used inside ol or ul element</p>
+                                        <p><i>li</i> <b>List Attributes</b> which is the value, use within ol element
+                                            only</p>
+                                        <p><i>ul</i> <b>Unordered List Elements</b> which are list without numbering, it
+                                            has bullets</p>
+                                        <p><i>ol</i> <b>Ordered List Elements</b> are list with numbering or numerals
+                                        </p>
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            HTML Tutorial #7: Tables
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/lafECAi4F5k?si=1lZO2nbiGJ72wjy5"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Table</b></p>
+
+                                        <table>
+                                            <caption text-align="center" caption-side="bottom"> <b>Maris Profiles</b>
+                                            </caption>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Age</th>
+                                            </tr>
+                                            <tr>
+                                                <td>Rose Maris</td>
+                                                <td>28</td>
+                                            </tr>
+                                        </table>
+                                        <br>
+                                        <p><b>Table Span</b></p>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th rowspan="2">Names</th>
+                                                    <th colspan="2">Subjects</th>
+                                                </tr>
+                                                <tr>
+                                                    <td>C#</td>
+                                                    <td>CSS</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Maris</td>
+                                                    <td>88</td>
+                                                    <td>89</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Nerk</td>
+                                                    <td>90</td>
+                                                    <td>95</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot background-color="">
+                                                <tr>
+                                                    <td colspan="4">Demo Row</td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+
+                                    </td>
+                                    <td>
+                                        <p><i>table</i> Element must be first</p>
+                                        <p>I was able to know the use of <i>tr</i> tags in which it indicate the row in
+                                            the table</p>
+                                        <p><i>th</i> <b>Table Heading</b> it is automatically bold, used with the tr tag
+                                            to indicate a content cell</p>
+                                        <p><i>td</i> <b>Table Data</b> used with the tr tag to indicate a table cell</p>
+                                        <p><i>colspan</i> specifies the column span of the cell</p>
+                                        <p><i>rowspan</i> specifies the row span of the cell</p>
+                                        <p><i>caption</i> indicatea a caption, default with centered aligned and on the
+                                            top of the table, can be customized by css</p>
+                                        <p><i>colgroup</i> a group of one or more columns in a table for formatting</p>
+                                        <p><i>col</i> column properties for each column within a colgroup element</p>
+                                        <p><i>thead</i> groups of header</p>
+                                        <p><i>tbody</i> group of body/p>
+                                        <p><i>tfoot</i> group of footer</p>
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            HTML Tutorial #8: Form (Input, Select & Text Area)
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/VmiMcxLVVto?si=lnTSb6fUqywsngCs"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Form</b></p>
+                                        <form>
+                                            <input type="text" value="VALUE" /> <br>
+                                            <input type="text" readonly value="READONLY" /> <br>
+                                            <input type="text" required placeholder="required" /> <br>
+                                            <input type="email" placeholder="Email"><br>
+                                            <input type="password" placeholder="Password" /><br>
+                                            <input type="number" step="5" placeholder="Number" /><br>
+                                            <input type="tel" placeholder="Telephone" /><br>
+                                            <input type="search" placeholder="Search" /><br>
+                                            <input type="url" placeholder="URL" /><br>
+                                            <input type="date" min="2023/01/22" max="2023/12/30" /><br>
+                                            <input type="datetime-local" /><br>
+                                            <input type="month" /><br>
+                                            <input type="week" /><br>
+                                            <input type="time" /><br>
+                                            <input type="file" accept="image/png" /><br> <!-- single file -->
+                                            <input type="file" accept="image/*" multiple /><br>
+                                            <input type="checkbox" id="apple" />
+
+                                            <!-- name must be the same for if you only want 1 answer-->
+                                            <label for="apple">Apple</label><br>
+                                            <input type="radio" id="yes" name="answer" />
+                                            <label for="yes">YES</label><br>
+                                            <input type="radio" id="no" name="answer" />
+                                            <label for="no">NO</label><br>
+
+                                            <input type="range" min="0" max="100" value="75" /><br>
+                                            <input type="color" /><br>
+
+                                            <textarea cols="30"></textarea><br>
+
+                                            <select name="names">
+                                                <option value="Ryan">Ryan</option>
+                                                <option value="Regie">Regie</option>
+                                                <option value="Grace">Grace</option>
+                                                <option value="Princess">Princess</option>
+                                            </select><br>
+                                            <select name="Profile">
+                                                <optgroup label="firstName">
+                                                    <option value="Ryan">Ryan</option>
+                                                    <option value="Regie">Regie</option>
+                                                    <option value="Grace">Grace</option>
+                                                    <option value="Princess">Princess</option>
+                                                </optgroup>
+                                                <optgroup label="lasttName">
+                                                    <option value="Simbajon">Simbajon</option>
+                                                    <option value="Tinampay">Tinampay</option>
+                                                    <option value="Coma">Coma</option>
+                                                </optgroup>
+                                            </select><br>
+                                            <input type="reset" /><br>
+                                            <input type="submit" /> <br>
+                                        </form>
+
+                                    </td>
+                                    <td>
+                                        <p><i>form</i> Form Element & Attributes it indicates a form, it is used in
+                                            combination with other elements</p>
+                                        <p>action - it specifies the action to perform after submitting the form</p>
+                                        <p>method - specifies the type pf method that the form will use "GET" or "POST"
+                                        </p>
+                                        <p>target - specifies wgere the result will display after submitting the form
+                                        </p>
+                                        <p><i>input</i> Input Element indicates a textfiled, radiobutton, checkbox ect.
+                                        </p>
+                                        <p>input tag can be change using the <i>type</i> attribute</p>
+                                        <p>Input Element General Attributes : type, name, value, required, disabled,
+                                            readonly</p>
+                                        <p><i>input</i> Input Elements Types and Attributes</p>
+                                        <p>input types : text, email, password, number, tel, search, url</p>
+                                        <p><i>textarea</i> Text Area Element & Attributes</p>
+                                        <p><i>select</i> Select Element and Attributes</p>
+                                        <p><i>option</i> Option Element & Attributes, indicate an item in a drop-down
+                                            list</p>
+                                        <p><i>optgroup</i> Option Group ELement & Attributes, indicate an item group in
+                                            a drop-down</p>
+                                        <p><i>label</i> Label Element & Attributes</p>
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            HTML Tutorial #9: Special Characters (UTF-8)
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/t4LTm5x1Gbw?si=dMA882LU_-CrP8gN"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Special Characters</b></p>
+                                        <table>
+                                            <tr>
+                                                <th> Entity</th>
+                                                <th>Description</th>
+                                                <th>Entity Name</th>
+                                                <th>Entity Number</th>
+                                                <th>Entity Hex</th>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>YEN</td>
+                                                <td>&yen;</td>
+                                                <td>&#165;</td>
+                                                <td>&#xa5;</td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Tears of Joy</td>
+                                                <td></td>
+                                                <td>&#128514;</td>
+                                                <td>&#x1f602;</td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td>
+                                        <p><b>HTML Entities</b> are displayed by using an ampersand <i>&</i> followed by
+                                            an <i>entity name</i>, </p>
+                                        <p> <i>entity number</i>, or an <i>entity hexadecimal</i> and ending with a
+                                            semicolon <i>;</i></p>
+                                        <img src="img/entity.png" width="500" height="200" />
+                                        <p><b>HTML Emojis</b> are characters from thw UTF-8 charset, it accessed as same
+                                            as the other HTML Entities</p>
+                                        <img src="img/emojis.png" width="500" height="200" />
+                                        <p><b>HTML Charset</b></p>
+                                        <img src="img/charset.png" width="500" height="200" />
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            HTML Tutorial #10: Non-Semantic & Semantic Elements
+                        </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/gyhd_4Bu0sc?si=fW7fNDL-ISajOwaY"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Non-Semantic </b></p>
+                                        <div id="header">
+                                            <h1>Gulay</h1>
+                                            <p>Rose Maris</p>
+                                        </div>
+                                        <div id="main-section">
+                                            <div class="section">
+                                                <h3>Tutorials</h3>
+                                                <p>Non-Semantic & Semantic Elements</p>
+                                            </div>
+                                            <div class="section">
+                                                <h3>Tutorials</h3>
+                                                <p>Non-Semantic & Semantic Elements</p>
+                                            </div>
+                                        </div>
+                                        <div id="footer">
+                                            <p>&copy; My GUlay</p>
+                                        </div>
+                                        <br>
+                                        <p><b>Semantic </b></p>
+                                        <nav>
+                                            <a href="https://www.facebook.com/">My Facebook</a>
+                                        </nav>
+                                        <header>
+                                            <h1>Me</h1>
+                                            <p>Vegie Meh</p>
+                                        </header>
+                                        <section>
+                                            <h3>Full Name</h3>
+                                            <p>Rose Maris GUlay</p>
+                                        </section>
+                                        <footer>
+                                            <p>&copy; MauishChan01</p>
+                                        </footer>
+                                    </td>
+                                    <td>
+                                        <p>Non-semantic Elements have no clear depiction of its content, it is typically
+                                            an element with a generic tag name that can contain anything.</p>
+                                        <img src="img/non-semantic.png" width="500" height="200" />
+                                        <p><b>Class & ID Attribute</b> are used to identify element, can be applied to
+                                            any elements, used to label non-semantic elements, and styling or modifyng
+                                            elements.</p>
+                                        <p><b>ID </b> are used to identify a single element in HTML Document, can be
+                                            used to cahnge its design or modify and retrive the element's values</p>
+                                        <p><b>CLASS</b> are used to identify multiple elements </p>
+                                        <p>Semantic Elements have clear decription on what it contains, to both the
+                                            developer and the browswer. have specific tag names. It does not change any
+                                            styling on the actual document. It is used to structure the website in a
+                                            cleaner way.</p>
+                                        <img src="img/semantic.png" width="500" height="200" />
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            HTML Tutorial #11: Other HTML Tags
+                        </button>
+                    </h2>
+                    <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/Bvftn2VpyhU?si=t31m6aSwaM1KzOVC"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p>Other HTML Tags</p>
+                                        <!-- added to the head
+                                        <link rel="icon" href="img/rmg.png"/> 
+                                        <link rel="stylesheet" href="index.css">
+                                        <script>
+                                            alert("This is my WORK")
+                                        </script>
+                                         <script src="function.js"></script>
+                                          -->
+                                        <h1>Hi Maris </h1>
+                                        <p>Icon ins the title </p>
+                                        <p>script ALERT</p>
+                                        <iframe width="300" height="300" src="https://biyaya-starosa.web.app/"
+                                            title="Biyaya Website"></iframe>
+                                        <progress value="75" max="100"></progress>
+                                    </td>
+                                    <td>
+                                        <p><i>meta</i> tag defines metadata about html file, it should always be placed
+                                            inside the <i>head</i> tag. It gives instructions on how the webpage is
+                                            displayed or searched in searched engine.</p>
+                                        <p><i>link</i> tag defines the html file to an external source file.</p>
+                                        <p><i>script</i> tag is used to include a client-side script which is
+                                            JavaScript.</p>
+                                        <p><i>iframe</i> tag is used to embed an HTML DOcument within an HTML Document.
+                                        </p>
+                                        <p><i>progress</i> tag it is used to display progress bar. It is commonly used
+                                            to display tasks progress.</p>
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            HTML Tutorial #12: Best Practices
+                        </button>
+                    </h2>
+                    <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample"
+                        style="">
+                        <div class="accordion-body">
+                            <table class="table table-striped table-hover">
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Output</th>
+                                    <th>Comment</th>
+                                </tr>
+                                <tr>
+                                    <td><iframe width="560" height="315"
+                                            src="https://www.youtube.com/embed/ZD-ar9iOHaQ?si=uG8Bh9w35TVOGYYI"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe></td>
+                                    <td>
+                                        <p><b>Best Practices</b></p>
+                                        <ol>
+                                            <li>Use Proper Document structure
+                                                <img src="img/practice1.png" width="500" height="200" />
+                                            </li>
+                                            <li>Use Lowercase Mark up Tags
+                                                <img src="img/practice3.png" width="500" height="200" />
+                                            </li>
+                                        </ol>
+                                    </td>
+                                    <td>
+                                        <p>Use Proper Document structure </p>
+                                        <p> It should start with <i>HTML</i> Tags, then <i>head</i> which contains the metadata, title, styles and other information.</p>
+                                        <p>Use Lowercase Mark up Tags</p>
+                                        <p><i>-Maris</i></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </section>
+</body>
+
+
+</html>
